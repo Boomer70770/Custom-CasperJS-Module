@@ -1,8 +1,7 @@
 /*
  * Casper_UM is an extension of the casperjs singleton instance
- * customized for web crawling for UM Technologies.
  *
- * Copyright (c) 2015 Software Engineering Associates/ UM Technologies
+ * Copyright (c) 2015 
  *
  * Author: Ryan Long
  * Version: 1.0
