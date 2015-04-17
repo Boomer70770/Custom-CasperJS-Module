@@ -266,6 +266,16 @@ casper.renderJSON = function (object) {
 };
 
 /**
+ * Removes all empty spaces and carriage returns from string
+ *
+ * @method parseString
+ * @param {String} text - the text to be parsed
+ * @return {String} returns the parsed string
+ */
+casper.parseString = function (text) {
+    return text.trim().replace("\n", "").replace(/\s{2,}/g, ' ');
+}
+/**
  * Parses a date object to YYYY-MM-DD
  *
  * @method parseDate
